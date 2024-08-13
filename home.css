@@ -1,0 +1,185 @@
+.homebody{
+    font-family: 'Roboto' ;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+.homebg{
+    background-image: url(.//assests/strangboys.jpg);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    border-image: fill 0 linear-gradient(#0001, #000) ;
+
+}
+.logo{
+    display: inline;
+     width: 160px;
+    /* margin-left: 80px; */
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+.usericon{
+    filter: invert();
+    width: 25px;
+   margin-left: 20px;
+   margin-right: 20px;
+   border: 1px solid rgb(0, 0, 0);
+   border-radius: 50%;
+   padding: 5px;
+   cursor: pointer;
+}
+.homelink{
+    color: white;
+}
+a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.515);
+}
+.searchicon{
+    filter: invert();
+    width: 25px;
+    cursor: pointer;
+  
+}
+.notiicon{
+    filter: invert();
+    width: 25px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.logo-link{
+    display: flex;
+justify-content: space-between;
+}
+.icon-b{
+display: flex;
+justify-content: space-between;
+}
+.navlinks{
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+/* front content */
+.frontcontent{
+    margin-top: 50px;
+    margin-left: 100px;
+  
+}
+.frontcontent h1 {
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+.frontp2{
+    width: 500px;
+    color: rgba(255, 255, 255, 0.423);
+}
+.playb{
+    background-color: #ffff;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 13px 30px ;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    &&:hover{
+        background-color: #eaeaea;
+        
+    }
+}
+.playb img{
+    width: 20px;
+   
+}
+.listb{
+    background-color: #ffffff6b;
+    border-radius: 10px;
+    padding: 13px 30px ;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    text-align: center;
+    &&:hover{
+        background-color: #eaeaea89;
+        
+    }
+}
+.listb img{
+    width: 20px;
+    align-items: center;
+    filter: invert();
+    
+
+}
+.movies{
+    margin: 30px;
+ 
+    width: 95%;
+    
+    mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent); /* For WebKit browsers */
+}
+
+
+
+
+.movies img{
+   
+  
+    cursor: pointer;
+    width: 330px;
+    height: 200px;
+    background-size: cover;
+   border-radius: 20px;
+   -webkit-box-shadow: 0 0 21px 1px #000000;
+   -moz-box-shadow: 0 0 21px 1px #000000;
+   box-shadow: 0 0 21px 1px #000000;
+}
+.movies2 img{
+    cursor: pointer;
+    width: 330px;
+    height: 200px;
+    background-size: cover;
+   border-radius: 10px;
+   -webkit-box-shadow: 0 0 21px 1px #000000;
+   -moz-box-shadow: 0 0 21px 1px #000000;
+   box-shadow: 0 0 21px 1px #000000;
+}
+.movies2 {
+   margin: 20px;
+}
+.movies3 {
+   margin: 20px;
+}
+.movies3 img{
+    cursor: pointer;
+    margin-top: 20px;
+    width: 330px;
+    height: 200px;
+    background-size: cover;
+   border-radius: 10px;
+   -webkit-box-shadow: 0 0 21px 1px #000000;
+   -moz-box-shadow: 0 0 21px 1px #000000;
+   box-shadow: 0 0 21px 1px #000000;
+}
+
